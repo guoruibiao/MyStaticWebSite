@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>记录点滴，享受回忆</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link
+	href="http://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<!-- 界面导航栏 -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+				<span class="sr-only">切换导航</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">点滴心语</a>
+		</div>
+		<div class="collapse navbar-collapse" id="example-navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="#">主页</a>
+				</li>
+				<li>
+					<a href="#">点滴</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						心语 <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">我</a>
+						</li>
+						<li>
+							<a href="#">爱</a>
+						</li>
+						<li>
+							<a href="#">你</a>
+						</li>
+						<li>
+							<a href="#">宝</a>
+						</li>
+						<li>
+							<a href="#">贝</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="glyphicon glyphicon-user" href="html/introduction.html">&nbsp;联系站长</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- 开始实现轮播图的逻辑代码-->
+	<div id="myCarousel" class="carousel slide" style="padding-top:50px;">
+		<!-- 轮播（Carousel）指标 -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<!-- 轮播（Carousel）项目 -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/beautiful.png" alt="First slide"></div>
+			<div class="item">
+				<img src="images/haha.png" alt="Second slide"></div>
+			<div class="item">
+				<img src="images/stand.png" alt="Third slide"></div>
+		</div>
+		<!-- 轮播（Carousel）导航 -->
+		<a class="carousel-control left" href="#myCarousel"
+      data-slide="prev">上一个</a>
+		<a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">下一个</a>
+	</div>
+
+	<!-- 开始网站主题的宣传 -->
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="jumbotron">
+				<h1>欢迎来到点滴心语！</h1>
+				<br>
+				<p>时光一去不复返，能留下的也就只有回忆！和家人在一起的美好瞬间，与恋人的甜蜜时刻，难忘的瞬息往事，思维的闪光点···</p>
+				<br>
+				<p>
+					<code>点滴心语</code>
+					就是能帮助你实现这一目标的平台，<font color="green" size='7'>手把手教学</font>帮你搭建个人网站，记录点滴！让记忆永存！
+				</p>
+				<p>来这里，就对了！</p>
+				<p>
+					<a class="btn btn-primary btn-lg" role="button" href="html/introduction.html">了解更多</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!--  仪表盘，关于网站的大致的简介及能学到的内容 -->
+	<div class="panel panel-default" style="margin:5px;">
+		<div class="panel-body">
+			<div class="container-fluid">
+				<div class="row">
+					<h1 class="page-header">在这里你能学到什么？</h1>
+					<div class="row placeholders">
+						<div class="col-xs-3 span3 placeholder circle_bg">
+							<img class="img-responsive img-circle" alt="200x200" src="http://andxyz.com/images/posts/system-of-a-markdown-logo-208x128.png" />
+							<br>
+							<br>
+							<br>
+							<h4><font size='6'>
+								<a href="http://baike.baidu.com/link?url=2iyjS_opz1CkyuEmQAM9fwSsNkTmBPS1Yvpyx0TUw1rkS6XVsZddfrzyaL05yF3B8EH8HFVsTiHRBP0hDnwdyq">Markdown</a></font>
+							</h4>
+							<span class="text-muted">一种现代化的标记语言，文本编辑人员的最爱···</span>
+						</div>
+						<div class="col-xs-3 span3 placeholder circle_bg">
+							<img class="img-responsive" alt="200x200" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Sublime_Text_Logo.png/150px-Sublime_Text_Logo.png" />
+							<br>
+							<br>
+							<h4><font size='6'>
+								<a href="http://www.sublimetext.com/">Sublime Text</a></font>
+							</h4>
+							<span class="text-muted">号称是“史上最性感的文本编辑器，完美的支持个性化设置，快来为自己定制一个吧！</span>
+						</div>
+						<div class="col-xs-3 span3 placeholder circle_bg">
+							<img class="img-responsive" alt="200x200" src="http://a.36krcnd.com/photo/d31f9c5bcb2cc8d64f2d789dcc7fc9d5.png" />
+							<br>
+							<br>
+							<br>
+							<br>
+							<h4><font size='6'>
+								<a href="https://github.com/">GitHub</a></font>
+							</h4>
+							<span class="text-muted">汇聚了全球最优秀的程序员的伟大的平台，你，怎能不来？</span>
+						</div>
+						<div class="col-xs-3 span3 placeholder circle_bg">
+							<img class="img-responsive" alt="200x200" src="images/hexo.png" />
+							<br>
+							<br>
+							<br>
+							<br>
+							<h4><font size='6'>
+								<a href="https://hexo.io/themes/index.html">Hexo</a></font>
+							</h4>
+							<span class="text-muted">一款基于Node.js的快速，强大的网络框架，完美支持多线程，实现静态网站的极速开发！</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 傻瓜式教学叙述 -->
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="jumbotron">
+				<h1>不会码代码？</h1>
+				<p>
+					没关系，
+					<code>点滴心语</code>
+					给您准备了更加精简的方式，不用敲代码，也能快速搭建专属于您自己的小窝！
+				</p>
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="row-fluid">
+								<div class="col-xs-3 span3">
+									<ul class="breadcrumb">
+										<li>
+											<a href="#">Markdown</a>
+											<span class="divider">/</span>
+										</li>
+										<li>
+											<a href="#">知识树</a>
+											<span class="divider">/</span>
+										</li>
+										<li class="active">当前页</li>
+									</ul>
+									<br>
+									<ul>
+										<li><a href="">初识</a>
+											<ul>
+												<li><a href="http://sspai.com/25137">初相识</a></li>
+												<li><a href="http://www.appinn.com/markdown/">简体中文手册</a></li>
+												<li><a href="http://www.jianshu.com/p/1e402922ee32/">入门指南</a></li>
+											</ul>
+										</li>
+										<li><a href="">进阶</a>
+											<ul>
+												<li><a href="http://www.williamlong.info/archives/4319.html">常用的编辑器</a></li>
+												<li><a href="http://blog.csdn.net/marksinoberg/article/details/51375953">实战1</a></li>
+												<li><a href="http://blog.csdn.net/marksinoberg/article/details/50993456">实战2</a></li>
+											</ul>
+										</li>
+										<li><a href="">高级</a>
+											<ul>
+												<li><a href="http://wowubuntu.com/markdown/index.html">Markdown语法详解</a></li>
+												<li><a href="http://blog.csdn.net/marksinoberg/article/details/51648929">自制编辑器</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-3 span3">
+									<ul class="breadcrumb">
+										<li>
+											<a href="#">Sublime Text</a>
+											<span class="divider">/</span>
+										</li>
+										<li>
+											<a href="#">知识树</a>
+											<span class="divider">/</span>
+										</li>
+										<li class="active">当前页</li>
+									</ul>
+									<br>
+									<ul>
+										<li><a href="">初识</a>
+											<ul>
+												<li><a href="http://baike.baidu.com/link?url=qIxoiohNnRbtayEdSA8n0IoWEWn92vKircv5VrJFWw5e4nhpMTLDrkXIlgw9ZPscFS9zVUqTv7tVOuVSEwnq4a">这是个神马？</a></li>
+												<li><a href="http://www.cnblogs.com/newpanderking/archive/2013/04/03/2998671.html">使用简介</a></li>
+											</ul>
+										</li>
+										<li><a href="">进阶</a>
+											<ul>
+												<li><a href="http://www.daqianduan.com/4820.html">快捷键大全1</a></li>
+												<li><a href="https://www.douban.com/note/362268947/">快捷键大全2</a></li>
+											</ul>
+										</li>
+										<li><a href="">高级</a>
+											<ul>
+												<li><a href="http://blog.csdn.net/moyan_min/article/details/11530751">环境变量配置</a></li>
+												<li><a href="http://www.yalewoo.com/sublime_text_3_gcc.html">插件安装</a></li>
+												<li><a href="http://blog.csdn.net/ablipan/article/details/17138045">自定义特效</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-3 span3">
+									<ul class="breadcrumb">
+										<li>
+											<a href="#">Github</a>
+											<span class="divider">/</span>
+										</li>
+										<li>
+											<a href="#">知识树</a>
+											<span class="divider">/</span>
+										</li>
+										<li class="active">当前页</li>
+									</ul>
+									<br>
+									<ul>
+										<li><a href="">初识</a>
+											<ul>
+												<li><a href="http://baike.baidu.com/link?url=VYBIXKMrgw95ih4u-2lp9krPTiWj8PHT3SYmlvOOhIM9PmS8dmJkgst2raha0QtZqKZvYnfVy2ogz2pMtLpz9q">百科释义</a></li>
+												<li><a href="http://wiki.jikexueyuan.com/project/github-basics/sign-up.html">注册账户</a></li>
+											</ul>
+										</li>
+										<li><a href="">进阶</a>
+											<ul>
+												<li><a href="http://www.runoob.com/w3cnote/git-guide.html">简易使用</a></li>
+												<li><a href="https://segmentfault.com/a/1190000000738398">远程仓库相关</a></li>
+												<li><a href="http://blog.csdn.net/marksinoberg/article/details/51626806">GitHub客户端使用</a></li>
+											</ul>
+										</li>
+										<li><a href="">高级</a>
+											<ul>
+												<li><a href="http://blog.chinaunix.net/uid-26185912-id-3332628.html">常用Git命令</a></li>
+												<li><a href="http://blog.csdn.net/marksinoberg/article/details/51622357">提交代码常见问题</a></li>
+												<li><a href="http://www.cnblogs.com/YouXianMing/p/4291198.html">高级搜索</a></li>
+												<li><a href="http://www.csdn.net/article/2014-08-06/2821086">国内排名前20名大牛</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-3 span3">
+									<ul class="breadcrumb">
+										<li>
+											<a href="#">Hexo</a>
+											<span class="divider">/</span>
+										</li>
+										<li>
+											<a href="#">知识树</a>
+											<span class="divider">/</span>
+										</li>
+										<li class="active">当前页</li>
+									</ul>
+									<br>
+									<ul>
+										<li><a href="">初识</a>
+											<ul>
+												<li><a href="http://www.thinksaas.cn/topics/0/351/351118.html">是什么？</a></li>
+												<li><a href="http://www.yyyweb.com/3455.html">能做什么？</a></li>
+											</ul>
+										</li>
+										<li><a href="">进阶</a>
+											<ul>
+												<li><a href="http://www.ido321.com/1650.html">进阶篇</a></li>
+												<li><a href="https://hexo.io/themes/index.html">主题大全</a></li>
+											</ul>
+										</li>
+										<li><a href="">高级</a>
+											<ul>
+												<li><a href="http://guoruibiao.github.io/2016/06/12/How-to-build-your-blog-system/">搭建独立博客</a></li>
+												<li><a href="http://www.jianshu.com/p/e7413116e9d4">搭建Wiki实战</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<p>
+					<a class="btn btn-success btn-lg" role="button" href="http://blog.csdn.net/marksinoberg">了解更多</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 网站最下边的版权信息！ -->
+	<div class="panel-default">
+		<div class="panel-body" align="center">
+			<p>
+				Copyright © 2016
+				<a href="https://guoruibiao.github.io">guoruibiao.github.io</a>
+				All Rights Reserved | 京ICP备
+				<a class="badge  badge-success">1304212126642号-2</a>
+			</p>
+		</div>
+	</div>
+
+	<!-- jQuery (Bootstrap 插件需要引入) -->
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- 包含了所有编译插件 -->
+	<script
+		src="http://apps.bdimg.com/libs/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

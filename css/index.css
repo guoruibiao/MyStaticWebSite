@@ -1,0 +1,7 @@
+.circle_bg{
+	border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+	padding-left: 7px;
+}
