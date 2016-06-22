@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Highlight.js测试实例</title>
+	<!-- 引入Highlight.js的依赖 -->
+	<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/solarized_dark.min.css">
+	<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+	
+</head>
+<body>
+<pre>
+	<code class="java">
+		System.out.println("Hello Highlight.js!");
+	</code>
+</pre>
+
+<pre>
+	<code class="c">
+		#include<stdio.h>
+		#include<stdlib.h>
+		int main(){
+			printf("Hello Highlight.js!\n");
+			return 0;
+		}
+	</code>
+</pre>
+<pre>
+	<code class="css">
+		body{
+			background:#EFFE63;
+		}
+	</code>
+</pre>
+<pre>
+	<code class="html">
+		<head>
+			<meta charset="utf-8">
+			<title>嗨，这里是Highlight.js的测试</title>
+		</head>
+		<body>
+			<input type="submit" name="submit" value="submit">
+		</body>
+	</code>
+</pre>
+
+
+	<!-- 一般js脚本会在body标签结束之前引入 -->
+	<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
